@@ -1,5 +1,6 @@
 import argparse
 
+
 def bw_transform(s):
     n = len(s)
     m = sorted([s[i:n]+s[0:i] for i in range(n)])
